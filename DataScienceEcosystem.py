@@ -58,10 +58,10 @@ time = int(input('number: '))
 unit = input('(M)in or (H)ou: ')
 if unit.upper() == "H":
     converted = time * 60
-    print(f"You are {converted} Min")
+    print(f"You have {converted} Min")
 else:
     converted = time / 60
-    print(f"You are {converted} Hours")
+    print(f"You have {converted} Hours")
 
 
 # ## Author
